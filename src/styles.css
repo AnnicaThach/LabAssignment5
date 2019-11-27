@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 
 * {
     margin: 0px;
@@ -10,7 +12,7 @@ html,
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #e19eff;
+    background-color: #ff68a2;
 }
 
 .main-container {
@@ -25,19 +27,23 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     height: 100%;
+    width: 100%;
 }
 
 .row-two {
-    background-color:#ffd9f2;
+    background-color:#ff68a2;
 
 
 }
 
 .row-three {
-    background-color: #ffd9f2
+    background-color: #ff68a2
 }
 
 .container-padding {
     margin: 12px;
-    border: 1px dashed #00e5ff4d;
+    border: 1px dashed #00eeff;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

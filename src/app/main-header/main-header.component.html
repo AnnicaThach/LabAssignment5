@@ -1,10 +1,19 @@
-<div class="row-one">
-        <div class="container-padding">
-            r1c1
-        </div>
-        <div (mouseleave)="resetGreeting()" (mouseenter)="showGreeting()" id="r1c2" class="container-padding">
-            {{greeting}}
-        </div>
-        <div class="container-padding">
-            r1c3
-        </div>
+<mat-toolbar color="primary" class="toolbar">
+  <div class="row-one">
+    <div class="container-padding">
+      <span>r1c1</span>
+    </div>
+    <div id="r1c2" class="container-padding">
+        <button (click)="navigateTo('')" class="nav-buttons" type="button" mat-raised-button color="accent">
+            Home
+        </button>
+        <button (click)="navigateTo('courses')" class="nav-buttons" mat-raised-button color="accent">
+            Courses
+        </button>
+    </div>
+    <div class="container-padding">
+      <span>r1c3</span>
+    </div>
+
+  </div>
+</mat-toolbar>
